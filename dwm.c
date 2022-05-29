@@ -1797,8 +1797,8 @@ setup(void)
 	XSelectInput(dpy, root, wa.event_mask);
 	grabkeys();
 	focus(NULL);
-	spawnbar();
 	setupepoll();
+	spawnbar();
 }
 
 void
