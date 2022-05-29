@@ -12,13 +12,8 @@ static const unsigned int gappx     = 15;      /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { 
-	"Noto Sans:size=12",
-	"Font Awesome 6 Brands:size=10",
-	"Font Awesome 6 Free:size=10",
-	"Font Awesome 6 Free:style=Solid:size=10",
-};
-static const char dmenufont[]       = "Noto Sans:size=12";
+static const char *fonts[]          = {"Liberation Mono:size=12"};
+static const char dmenufont[]       = "Liberation Mono:size=12";
 static const int usealtbar          = 1;        /* 1 means use non-dwm status bar */
 static const char *altbarclass      = "Polybar"; /* Alternate bar class name */
 static const char *alttrayname      = "tray";    /* Polybar tray instance name */
